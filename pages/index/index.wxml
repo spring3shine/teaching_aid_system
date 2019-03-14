@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<radio-group class="radio-group" bindchange="radioChange">
+  <text>当前课程是xxx</text>
+
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}">{{item.name}}</radio>
+  </label>
+</radio-group>
+
+<map
+  longitude='{{log}}'
+  latitude='{{lat}}'
+  style='width:375px;height:400px'
+></map>
+<button id="0" type="primary" size="{{primarySize}}" loading="{{loading}}" 
+        plain="{{plain}}" disabled="{{disabled}}" bindtap="primary"
+        left="100px" top="400px"
+        > check in</button>
+
+<button id="1" type="default" size="{{primarySize}}" loading="{{loading}}" 
+        plain="{{plain}}" disabled="{{disabled}}" bindtap="checkInList"
+        left="100px" top="400px"
+        > check in list</button>
