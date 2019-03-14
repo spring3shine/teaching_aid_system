@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/checkInList/checkInList",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/checkInList/checkInList"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

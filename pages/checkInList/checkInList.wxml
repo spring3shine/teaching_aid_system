@@ -1,2 +1,12 @@
-<!--pages/checkInList/checkInList.wxml-->
-<text>pages/checkInList/checkInList.wxml</text>
+<view wx:for="{{checkInList}}">  
+  <view class="section__title">科目：{{index}}__{{item.name}}</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_red">成功签到次数</view>
+    <view class="flex-item bc_blue">未到次数</view>
+    <view class="flex-item bc_green">迟到次数</view>
+    <view class="flex-item bc_red">剩余课时</view>
+  </view>
+</view>
+
+
+

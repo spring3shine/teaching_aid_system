@@ -5,13 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      checkInList:[
+        { name: "math",check:32,lost:1,late:3,remain:2},
+        { name: "scinece", check: 32, lost: 1, late: 3, remain: 2},
+        { name: "art", check: 1322, lost1: 31, late: 23, remain: 2}
+      ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+      //1、get the check_in_list
+      
+      //2、set the data:setData
+
 
   },
 
